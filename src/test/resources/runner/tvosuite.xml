@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="base.CustomListenerClass"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.TC001HomePage"/>
+       <class name="testcases.TC002Navigation_Coronavirus"/>
+      <class name="testcases.TC003Navigation_Hubs"/>
+      <class name="testcases.TC004Navigation_Kids"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

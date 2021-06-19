@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23541" started-at="2021-06-19T14:59:54Z" finished-at="2021-06-19T15:00:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23541" started-at="2021-06-19T14:59:54Z" finished-at="2021-06-19T15:00:18Z">
+      <class name="testcases.TC001HomePage">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001HomePage@43bd930a]" name="init" is-config="true" duration-ms="11070" started-at="2021-06-19T14:59:43Z" finished-at="2021-06-19T14:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyImgDisplay()[pri:0, instance:testcases.TC001HomePage@43bd930a]" name="verifyImgDisplay" duration-ms="244" started-at="2021-06-19T14:59:54Z" finished-at="2021-06-19T14:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImgDisplay -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001HomePage@43bd930a]" name="closeBrowser" is-config="true" duration-ms="1250" started-at="2021-06-19T15:00:18Z" finished-at="2021-06-19T15:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC001HomePage -->
+      <class name="testcases.TC003Navigation_Hubs">
+        <test-method status="PASS" signature="verifyHubsNavigation()[pri:0, instance:testcases.TC003Navigation_Hubs@64f6106c]" name="verifyHubsNavigation" duration-ms="3096" started-at="2021-06-19T15:00:02Z" finished-at="2021-06-19T15:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHubsNavigation -->
+      </class> <!-- testcases.TC003Navigation_Hubs -->
+      <class name="testcases.TC002Navigation_Coronavirus">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testcases.TC002Navigation_Coronavirus@33723e30]" name="verifyTitle" duration-ms="6620" started-at="2021-06-19T14:59:55Z" finished-at="2021-06-19T15:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- testcases.TC002Navigation_Coronavirus -->
+      <class name="testcases.TC004Navigation_Kids">
+        <test-method status="PASS" signature="verifyKidsNavigation()[pri:0, instance:testcases.TC004Navigation_Kids@553a3d88]" name="verifyKidsNavigation" duration-ms="10770" started-at="2021-06-19T15:00:06Z" finished-at="2021-06-19T15:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKidsNavigation -->
+      </class> <!-- testcases.TC004Navigation_Kids -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
