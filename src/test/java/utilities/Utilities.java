@@ -10,17 +10,22 @@ import org.openqa.selenium.TakesScreenshot;
 import base.BaseClass;
 
 public class Utilities extends BaseClass{
-
+	
+	public static String screenshotPath;
 	public static String screenshotName;
 
 	public static void captureScreenshot() throws IOException {
-		String screenshotName = "TVOautomation" + getRandomString(6) +".png";
+		
 		
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		//FileUtils.copyFile(scrFile, new File("C:\\Users\\Amrita\\eclipse-workspace\\TVO\\src\\test\\resources\\screenshots" + fileName));
 		try {
-			FileUtils.copyFile(scrFile, new File(System.getProperty("user.dir")+ "\\target\\surefire-reports\\html\\" + screenshotName));
-		} catch (IOException e) {
+			screenshotName = "TVOautomation" + getRandomString(4) +".png";
+			screenshotPath= System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\";
+			FileUtils.copyFile(scrFile,
+					new File(screenshotPath + screenshotName));
+		}
+		catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

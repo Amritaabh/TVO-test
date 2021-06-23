@@ -21,7 +21,7 @@ public class BaseClass {
 	public static WebDriver driver = null;
 	public ExtentReports rep = ExtentReportsGenerator.getInstance();
 	public static ExtentTest test;
-	public static Logger app_logs = Logger.getLogger("qaLogger");
+	public static Logger app_logs = Logger.getLogger("Amrita");
 	
 	@BeforeSuite()
 	public static void init() throws IOException {
@@ -42,5 +42,6 @@ public class BaseClass {
 	@AfterSuite()
 	public static void closeBrowser() {
 		driver.quit();
+		app_logs.debug("chrome browser closed");
 	}
 }

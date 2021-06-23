@@ -19,9 +19,11 @@ public class TC001HomePage extends BaseClass {
 		hp= new HomePage(driver);
 		hp.imgDisplayed();
 		test.log(LogStatus.INFO, "Image on the home page is displayed");
-		Assert.assertTrue(true);
+		app_logs.info("appropriate image is verified on the home page");
+		Assert.assertTrue(false);
 		hp.imgLocation();
 		test.log(LogStatus.INFO, "Location of the secondary block image on the home page is displayed");
+		app_logs.info("location of the secondary block image is captured");
 		test.log(LogStatus.INFO, "Verify Image Display Test completed");
 		app_logs.info("Verify image display test completed");
 	}

@@ -33,7 +33,7 @@ public class CustomListenerClass extends BaseClass implements ITestListener, ISu
 		test.log(LogStatus.PASS, arg0.getName().toUpperCase()+" PASS");
 		rep.endTest(test);
 		rep.flush();
-		
+		app_logs.debug("extent report updated with success message");
 	}
 
 	@Override
@@ -46,11 +46,10 @@ public class CustomListenerClass extends BaseClass implements ITestListener, ISu
 			e.printStackTrace();
 		}
 		test.log(LogStatus.FAIL, arg0.getName().toUpperCase()+" Failed with exception : "+arg0.getThrowable());
-		test.log(LogStatus.INFO, BaseClass.test.addScreenCapture(Utilities.screenshotName));
-		
+		test.log(LogStatus.INFO, test.addScreenCapture((Utilities.screenshotName)));
 		rep.endTest(test);
 		rep.flush();
-		
+		app_logs.debug("extent report updated with failure message");
 	}
 
 	@Override
@@ -79,13 +78,13 @@ public class CustomListenerClass extends BaseClass implements ITestListener, ISu
 	@Override
 	public void onStart(ISuite suite) {
 		System.out.println("TVO Hybrid Framework suite run started");
-		
+		app_logs.debug("Test suite execution started");
 	}
 
 	@Override
 	public void onFinish(ISuite suite) {
 		System.out.println("TVO Hybrid Framework suite run completed");
-		
+		app_logs.debug("Test suite execution completed");
 	}
 	
 
