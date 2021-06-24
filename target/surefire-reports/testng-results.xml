@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Failed suite [Failed suite [Suite]]]" duration-ms="16607" started-at="2021-06-23T20:34:30Z" finished-at="2021-06-23T20:34:47Z">
+  <suite name="Failed suite [Failed suite [Failed suite [Suite]]]" duration-ms="63218" started-at="2021-06-24T03:03:21Z" finished-at="2021-06-24T03:04:24Z">
     <groups>
     </groups>
-    <test name="Test(failed)(failed)(failed)" duration-ms="16607" started-at="2021-06-23T20:34:30Z" finished-at="2021-06-23T20:34:47Z">
+    <test name="Test(failed)(failed)(failed)" duration-ms="63218" started-at="2021-06-24T03:03:21Z" finished-at="2021-06-24T03:04:24Z">
       <class name="testcases.TC001HomePage">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="init" is-config="true" duration-ms="10934" started-at="2021-06-23T20:34:19Z" finished-at="2021-06-23T20:34:30Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="init" is-config="true" duration-ms="62241" started-at="2021-06-24T03:02:19Z" finished-at="2021-06-24T03:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="verifyImgDisplay()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="verifyImgDisplay" duration-ms="346" started-at="2021-06-23T20:34:31Z" finished-at="2021-06-23T20:34:31Z">
+        <test-method status="FAIL" signature="verifyImgDisplay()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="verifyImgDisplay" duration-ms="199" started-at="2021-06-24T03:03:21Z" finished-at="2021-06-24T03:03:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -58,13 +58,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyImgDisplay -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="closeBrowser" is-config="true" duration-ms="1904" started-at="2021-06-23T20:34:48Z" finished-at="2021-06-23T20:34:50Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="closeBrowser" is-config="true" duration-ms="18029" started-at="2021-06-24T03:04:24Z" finished-at="2021-06-24T03:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testcases.TC001HomePage -->
       <class name="testcases.TC004Navigation_Kids">
-        <test-method status="PASS" signature="verifyKidsNavigation()[pri:0, instance:testcases.TC004Navigation_Kids@1d29cf23]" name="verifyKidsNavigation" duration-ms="10812" started-at="2021-06-23T20:34:34Z" finished-at="2021-06-23T20:34:45Z">
+        <test-method status="PASS" signature="verifyKidsNavigation()[pri:0, instance:testcases.TC004Navigation_Kids@1d29cf23]" name="verifyKidsNavigation" duration-ms="47996" started-at="2021-06-24T03:03:27Z" finished-at="2021-06-24T03:04:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyKidsNavigation -->

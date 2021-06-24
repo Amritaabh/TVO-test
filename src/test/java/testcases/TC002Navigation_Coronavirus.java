@@ -24,7 +24,7 @@ public class TC002Navigation_Coronavirus extends BaseClass {
 		test.log(LogStatus.INFO, "Corona link clicked successfully");
 		app_logs.info("Coronavirus navigation link clicked");
 		Thread.sleep(2000);
-		String expectedTitle= "Coronavir | TVO.org";
+		String expectedTitle= "Coronavirus | TVO.org";
 		String actualTitle= driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
 		test.log(LogStatus.INFO, "verify Title Test is passed");

@@ -1,19 +1,19 @@
-23/06/2021 16:34:19 Amrita Test suite execution started
-23/06/2021 16:34:19 Amrita loading the config property file
-23/06/2021 16:34:25 Amrita chrome browser launched
-23/06/2021 16:34:31 Amrita Verify image display test started
-23/06/2021 16:34:31 Amrita appropriate image is verified on the home page
-23/06/2021 16:34:34 Amrita extent report updated with failure message
-23/06/2021 16:34:34 Amrita TVOKids navigation test started
-23/06/2021 16:34:34 Amrita TVOKids navigation link clicked
-23/06/2021 16:34:34 Amrita Home window handler id is captured
-23/06/2021 16:34:34 Amrita Kids window handler id is captured
-23/06/2021 16:34:38 Amrita Preschool link is clicked
-23/06/2021 16:34:38 Amrita Preschool games link is clicked
-23/06/2021 16:34:40 Amrita Kids window is closed
-23/06/2021 16:34:43 Amrita About TVO navigation link clicked on home page
-23/06/2021 16:34:45 Amrita Work At TVO link clicked
-23/06/2021 16:34:45 Amrita TVOKids navigation test completed
-23/06/2021 16:34:47 Amrita extent report updated with success message
-23/06/2021 16:34:50 Amrita chrome browser closed
-23/06/2021 16:34:50 Amrita Test suite execution completed
+23/06/2021 23:02:19 Amrita Test suite execution started
+23/06/2021 23:02:19 Amrita loading the config property file
+23/06/2021 23:02:32 Amrita chrome browser launched
+23/06/2021 23:03:21 Amrita Verify image display test started
+23/06/2021 23:03:21 Amrita appropriate image is verified on the home page
+23/06/2021 23:03:27 Amrita extent report updated with failure message
+23/06/2021 23:03:27 Amrita TVOKids navigation test started
+23/06/2021 23:03:27 Amrita TVOKids navigation link clicked
+23/06/2021 23:03:27 Amrita Home window handler id is captured
+23/06/2021 23:03:27 Amrita Kids window handler id is captured
+23/06/2021 23:04:07 Amrita Preschool link is clicked
+23/06/2021 23:04:08 Amrita Preschool games link is clicked
+23/06/2021 23:04:10 Amrita Kids window is closed
+23/06/2021 23:04:13 Amrita About TVO navigation link clicked on home page
+23/06/2021 23:04:15 Amrita Work At TVO link clicked
+23/06/2021 23:04:15 Amrita TVOKids navigation test completed
+23/06/2021 23:04:24 Amrita extent report updated with success message
+23/06/2021 23:04:42 Amrita chrome browser closed
+23/06/2021 23:04:42 Amrita Test suite execution completed

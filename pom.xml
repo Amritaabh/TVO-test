@@ -49,8 +49,8 @@
 				<configuration>
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>src/test/resources/runner/tvosuite.xml</suiteXmlFile>-->
-						<suiteXmlFile>test-output/testng-failed.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/runner/tvosuite.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>test-output/testng-failed.xml</suiteXmlFile>-->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
