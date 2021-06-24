@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="testcases.TC001HomePage">
-        <methods>
-          <include name="verifyImgDisplay"/>
-          <include name="init"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- testcases.TC001HomePage -->
       <class name="testcases.TC004Navigation_Kids">
         <methods>
           <include name="verifyKidsNavigation"/>

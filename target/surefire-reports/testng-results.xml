@@ -1,28 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="0" failed="1" ignored="6" total="10" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Failed suite [Failed suite [Suite]]]" duration-ms="63218" started-at="2021-06-24T03:03:21Z" finished-at="2021-06-24T03:04:24Z">
+  <suite name="Suite" duration-ms="93518" started-at="2021-06-24T03:37:28Z" finished-at="2021-06-24T03:39:02Z">
     <groups>
     </groups>
-    <test name="Test(failed)(failed)(failed)" duration-ms="63218" started-at="2021-06-24T03:03:21Z" finished-at="2021-06-24T03:04:24Z">
+    <test name="Test" duration-ms="93518" started-at="2021-06-24T03:37:28Z" finished-at="2021-06-24T03:39:02Z">
       <class name="testcases.TC001HomePage">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="init" is-config="true" duration-ms="62241" started-at="2021-06-24T03:02:19Z" finished-at="2021-06-24T03:03:21Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001HomePage@396f6598]" name="init" is-config="true" duration-ms="17967" started-at="2021-06-24T03:37:10Z" finished-at="2021-06-24T03:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="verifyImgDisplay()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="verifyImgDisplay" duration-ms="199" started-at="2021-06-24T03:03:21Z" finished-at="2021-06-24T03:03:21Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="PASS" signature="verifyImgDisplay()[pri:0, instance:testcases.TC001HomePage@396f6598]" name="verifyImgDisplay" duration-ms="358" started-at="2021-06-24T03:37:28Z" finished-at="2021-06-24T03:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImgDisplay -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001HomePage@396f6598]" name="closeBrowser" is-config="true" duration-ms="4113" started-at="2021-06-24T03:39:02Z" finished-at="2021-06-24T03:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC001HomePage -->
+      <class name="testcases.TC003Navigation_Hubs">
+        <test-method status="PASS" signature="verifyHubsNavigation()[pri:0, instance:testcases.TC003Navigation_Hubs@27a5f880]" name="verifyHubsNavigation" duration-ms="4520" started-at="2021-06-24T03:37:56Z" finished-at="2021-06-24T03:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHubsNavigation -->
+      </class> <!-- testcases.TC003Navigation_Hubs -->
+      <class name="testcases.TC002Navigation_Coronavirus">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testcases.TC002Navigation_Coronavirus@394e1a0f]" name="verifyTitle" duration-ms="26180" started-at="2021-06-24T03:37:30Z" finished-at="2021-06-24T03:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- testcases.TC002Navigation_Coronavirus -->
+      <class name="testcases.TC004Navigation_Kids">
+        <test-method status="FAIL" signature="verifyKidsNavigation()[pri:0, instance:testcases.TC004Navigation_Kids@1d29cf23]" name="verifyKidsNavigation" duration-ms="59943" started-at="2021-06-24T03:38:01Z" finished-at="2021-06-24T03:39:01Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J4DO44B', ip: '192.168.2.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Amrita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d0ed313ece51dc793713b7e3cd84138]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at testcases.TC001HomePage.verifyImgDisplay(TC001HomePage.java:23)
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J4DO44B', ip: '192.168.2.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Amrita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d0ed313ece51dc793713b7e3cd84138
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at pageclass.HomePage.workAtTVOClick(HomePage.java:69)
+at testcases.TC004Navigation_Kids.verifyKidsNavigation(TC004Navigation_Kids.java:57)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,21 +99,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyImgDisplay -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001HomePage@27a5f880]" name="closeBrowser" is-config="true" duration-ms="18029" started-at="2021-06-24T03:04:24Z" finished-at="2021-06-24T03:04:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.TC001HomePage -->
-      <class name="testcases.TC004Navigation_Kids">
-        <test-method status="PASS" signature="verifyKidsNavigation()[pri:0, instance:testcases.TC004Navigation_Kids@1d29cf23]" name="verifyKidsNavigation" duration-ms="47996" started-at="2021-06-24T03:03:27Z" finished-at="2021-06-24T03:04:15Z">
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyKidsNavigation -->
       </class> <!-- testcases.TC004Navigation_Kids -->
-    </test> <!-- Test(failed)(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
