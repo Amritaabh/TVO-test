@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="base.CustomListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)(failed)(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.TC001HomePage">
+      <class name="testcases.TC002Navigation_Coronavirus">
         <methods>
-          <include name="verifyImgDisplay"/>
           <include name="init"/>
+          <include name="verifyTitle"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testcases.TC001HomePage -->
-      <class name="testcases.TC004Navigation_Kids">
-        <methods>
-          <include name="verifyKidsNavigation"/>
-          <include name="init"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- testcases.TC004Navigation_Kids -->
+      </class> <!-- testcases.TC002Navigation_Coronavirus -->
     </classes>
-  </test> <!-- Test(failed)(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

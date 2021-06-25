@@ -20,7 +20,7 @@ public class TC001HomePage extends BaseClass {
 		hp.imgDisplayed();
 		test.log(LogStatus.INFO, "Image on the home page is displayed");
 		app_logs.info("appropriate image is verified on the home page");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 		hp.imgLocation();
 		test.log(LogStatus.INFO, "Location of the secondary block image on the home page is displayed");
 		app_logs.info("location of the secondary block image is captured");

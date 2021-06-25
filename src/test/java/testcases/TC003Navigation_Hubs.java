@@ -29,7 +29,7 @@ public class TC003Navigation_Hubs extends BaseClass{
 		String actualURL= driver.getCurrentUrl();
 		System.out.println(actualURL);
 		
-		String expectedURL= "https://www.tvo.org/current-affairs/tag/northeastern";
+		String expectedURL= "https://www.tvo.org/current-affairs/tag/northeastrn";
 	
 		Assert.assertEquals(actualURL, expectedURL);
 		test.log(LogStatus.INFO, "verify Hubs Navigation Test completed");
