@@ -1,32 +1,31 @@
-25/06/2021 17:07:18 Amrita Test suite execution started
-25/06/2021 17:07:18 Amrita loading the config property file
-25/06/2021 17:07:23 Amrita chrome browser launched
-25/06/2021 17:07:31 Amrita Verify image display test started
-25/06/2021 17:07:31 Amrita appropriate image is verified on the home page
-25/06/2021 17:07:31 Amrita location of the secondary block image is captured
-25/06/2021 17:07:31 Amrita Verify image display test completed
-25/06/2021 17:07:32 Amrita extent report updated with success message
-25/06/2021 17:07:32 Amrita Coronavirus navigation test started
-25/06/2021 17:07:33 Amrita Coronavirus navigation link clicked
-25/06/2021 17:07:35 Amrita Coronavirus title verified
-25/06/2021 17:07:37 Amrita Coronavirus image displayed
-25/06/2021 17:07:42 Amrita Coronavirus navigation test completed
-25/06/2021 17:07:42 Amrita extent report updated with success message
-25/06/2021 17:07:42 Amrita Hubs navigation test started
-25/06/2021 17:07:42 Amrita Ontario hubs navigation link clicked
-25/06/2021 17:07:43 Amrita Northeastern hubs navigation link clicked
-25/06/2021 17:07:45 Amrita Hubs navigation test completed
-25/06/2021 17:07:45 Amrita extent report updated with success message
-25/06/2021 17:07:45 Amrita TVOKids navigation test started
-25/06/2021 17:07:45 Amrita TVOKids navigation link clicked
-25/06/2021 17:07:45 Amrita Home window handler id is captured
-25/06/2021 17:07:45 Amrita Kids window handler id is captured
-25/06/2021 17:07:48 Amrita Preschool link is clicked
-25/06/2021 17:07:49 Amrita Preschool games link is clicked
-25/06/2021 17:07:51 Amrita Kids window is closed
-25/06/2021 17:07:54 Amrita About TVO navigation link clicked on home page
-25/06/2021 17:07:56 Amrita Work At TVO link clicked
-25/06/2021 17:07:56 Amrita TVOKids navigation test completed
-25/06/2021 17:07:58 Amrita extent report updated with success message
-25/06/2021 17:08:00 Amrita chrome browser closed
-25/06/2021 17:08:00 Amrita Test suite execution completed
+26/06/2021 10:19:57 Amrita Test suite execution started
+26/06/2021 10:19:57 Amrita loading the config property file
+26/06/2021 10:20:22 Amrita chrome browser launched
+26/06/2021 10:20:33 Amrita Verify image display test started
+26/06/2021 10:20:34 Amrita appropriate image is verified on the home page
+26/06/2021 10:20:34 Amrita location of the secondary block image is captured
+26/06/2021 10:20:34 Amrita Verify image display test completed
+26/06/2021 10:20:39 Amrita extent report updated with success message
+26/06/2021 10:20:39 Amrita Coronavirus navigation test started
+26/06/2021 10:20:40 Amrita Coronavirus navigation link clicked
+26/06/2021 10:20:43 Amrita Coronavirus title verified
+26/06/2021 10:20:45 Amrita Coronavirus image displayed
+26/06/2021 10:20:50 Amrita Coronavirus navigation test completed
+26/06/2021 10:20:50 Amrita extent report updated with success message
+26/06/2021 10:20:50 Amrita Hubs navigation test started
+26/06/2021 10:20:51 Amrita Ontario hubs navigation link clicked
+26/06/2021 10:20:51 Amrita Northeastern hubs navigation link clicked
+26/06/2021 10:20:54 Amrita extent report updated with failure message
+26/06/2021 10:20:54 Amrita TVOKids navigation test started
+26/06/2021 10:20:54 Amrita TVOKids navigation link clicked
+26/06/2021 10:20:56 Amrita Home window handler id is captured
+26/06/2021 10:20:56 Amrita Kids window handler id is captured
+26/06/2021 10:21:27 Amrita Preschool link is clicked
+26/06/2021 10:21:28 Amrita Preschool games link is clicked
+26/06/2021 10:21:38 Amrita Kids window is closed
+26/06/2021 10:21:41 Amrita About TVO navigation link clicked on home page
+26/06/2021 10:21:43 Amrita Work At TVO link clicked
+26/06/2021 10:21:43 Amrita TVOKids navigation test completed
+26/06/2021 10:21:47 Amrita extent report updated with success message
+26/06/2021 10:21:50 Amrita chrome browser closed
+26/06/2021 10:21:50 Amrita Test suite execution completed
